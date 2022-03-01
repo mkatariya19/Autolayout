@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Autolayout1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Bmu-0g-kgA">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" id="0ba-yr-pTZ"/>
+                                    <constraint firstAttribute="height" id="GhW-9B-Bry"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olm-Kj-A7H" userLabel="secondbutton">
+                                <rect key="frame" x="373.5" y="622.5" width="87" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="In a Week">
+                                    <backgroundConfiguration key="background" image="In a Week"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dz0-pW-Ohl" userLabel="thirdbutton">
+                                <rect key="frame" x="378.5" y="663.5" width="77" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Monthly">
+                                    <backgroundConfiguration key="background" image="Monthly"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="login or create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xc-z8-nvW">
+                                <rect key="frame" x="303.5" y="537.5" width="227" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iC0-tb-j6j" userLabel="firstbutton">
+                                <rect key="frame" x="385.5" y="581.5" width="63" height="31"/>
+                                <inset key="contentEdgeInsets" minX="13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Today" buttonSize="medium">
+                                    <backgroundConfiguration key="background" image="Today" strokeWidth="7" strokeOutset="9"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nous.. ..Verticals " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fd-5s-o0C">
+                                <rect key="frame" x="293" y="391" width="248" height="116.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="46"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Fd-5s-o0C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A3T-hS-O9G"/>
+                            <constraint firstItem="iC0-tb-j6j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Adg-zx-UB6"/>
+                            <constraint firstItem="Olm-Kj-A7H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ERp-PA-Ngj"/>
+                            <constraint firstItem="dz0-pW-Ohl" firstAttribute="top" secondItem="Olm-Kj-A7H" secondAttribute="bottom" constant="10" id="OTD-iu-iBA"/>
+                            <constraint firstItem="Bmu-0g-kgA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="f3R-SE-SLI"/>
+                            <constraint firstItem="1xc-z8-nvW" firstAttribute="top" secondItem="0Fd-5s-o0C" secondAttribute="bottom" constant="30" id="gbW-Dd-InV"/>
+                            <constraint firstItem="1xc-z8-nvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hlL-Qs-a6X"/>
+                            <constraint firstItem="Olm-Kj-A7H" firstAttribute="top" secondItem="iC0-tb-j6j" secondAttribute="bottom" constant="10" id="jhy-Cj-Odx"/>
+                            <constraint firstAttribute="bottom" secondItem="Bmu-0g-kgA" secondAttribute="bottom" id="q93-OF-Aga"/>
+                            <constraint firstItem="iC0-tb-j6j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rSI-OO-1Od"/>
+                            <constraint firstAttribute="trailing" secondItem="Bmu-0g-kgA" secondAttribute="trailing" id="t4f-St-py2"/>
+                            <constraint firstItem="iC0-tb-j6j" firstAttribute="top" secondItem="1xc-z8-nvW" secondAttribute="bottom" constant="20" id="vNh-Xg-oXv"/>
+                            <constraint firstItem="Bmu-0g-kgA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vcY-mU-1lp"/>
+                            <constraint firstItem="dz0-pW-Ohl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yGt-jO-4xI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="52.901785714285715"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="800" height="532"/>
+        <image name="In a Week" width="276" height="183"/>
+        <image name="Monthly" width="275" height="183"/>
+        <image name="Today" width="275" height="183"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
